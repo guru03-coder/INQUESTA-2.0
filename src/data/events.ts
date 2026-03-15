@@ -181,7 +181,7 @@ export const eventsData: Event[] = [
         subtitle: "Uncover the Hidden Truth",
         image: "/gazette-logo.jpg",
         showLogoInsteadOfTimeline: true,
-        registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSezyk0PRTxw4sOCAal7pI3OjhMy9blS99uv3fvulxIjyr40Uw/viewform",
+        registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSctmhaJ4vnRf13Ue2nJOUm3r7qz1w9PRsAvHtwEMg8FiBSUXQ/viewform",
         teamSize: "3 Members",
         shortDescription: "Gazette is an investigative media event where participants step into the role of journalists chasing the truth.",
         fullDescription: "Gazette: The Press Challenge is an investigative media event where participants step into the role of journalists chasing the truth behind a developing corporate crisis.\n\nA viral video has triggered widespread controversy, and news agencies must uncover what really happened. Teams will analyze digital evidence, question powerful figures, and piece together verified information to expose the real story.\n\nFrom investigating leaked documents to confronting the company’s leadership, participants must combine research, logic, and communication skills to reveal the truth and deliver the final headline before the deadline.",
