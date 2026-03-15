@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-detective-brown: #2B1B12;
+  --color-vintage-paper: #E6CCB2;
+  --color-crime-dark: #4a3326;
+  --color-noir-100: #B08968;
+  --color-noir-200: #6E4B3A;
+  --color-accent: #F4A261;
+
+  --font-outfit: var(--font-outfit), sans-serif;
+  --font-space: var(--font-space), monospace;
+  --font-handwriting: "Dancing Script", "Cursive", cursive;
+}
+
+:root {
+  --background: #2B1B12;
+  --foreground: #E6CCB2;
+}
+
+body {
+  background: radial-gradient(circle, #4a3326, #2B1B12);
+  color: var(--foreground);
+  font-family: var(--font-outfit);
+  overflow-x: hidden;
+  /* Cinematic feel: hide scrollbars */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: #F4A261;
+  color: #2B1B12;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base utility for canvas to ensure it sits properly */
+canvas {
+  touch-action: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
