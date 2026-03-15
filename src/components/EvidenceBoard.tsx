@@ -81,7 +81,7 @@ export function EvidenceBoard() {
 
                         <div className="w-full bg-detective-brown aspect-[3/4.2] flex items-center justify-center border border-gray-200 overflow-hidden relative group">
                             <img 
-                                src="/event-poster.png" 
+                                src="/posters/sabotage-quest-poster.jpg" 
                                 alt="Event Poster" 
                                 className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700"
                             />
