@@ -203,6 +203,16 @@ export function StrategicEvidenceBoard() {
                                     R HARIPRASANTH
                                 </span>
                             </a>
+                            <a 
+                                href="https://www.linkedin.com/in/sankarabaalan-ve-414122340" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="group block"
+                            >
+                                <span className="font-handwriting text-green-950 text-lg group-hover:text-green-600 transition-colors underline decoration-green-500/0 group-hover:decoration-green-500/30">
+                                    SANKARABAALAN VE
+                                </span>
+                            </a>
                         </div>
                     </motion.div>
                 </div>
